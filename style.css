@@ -32,12 +32,12 @@ tr:nth-child(3n) {
 }
 
 .container {
-    width: 378px;
-    margin: 5px auto;
+	width: 378px;
+	margin: 5px auto;
 }
 
 .buttonsContainer {
-    margin-top: 5px;
+	margin-top: 5px;
 	width: 380px;
 	height: 60px;
 }
@@ -49,40 +49,40 @@ tr:nth-child(3n) {
 }
 
 .givenNumber {
-    color: red;
+	color: red;
 }
 
 .solvingNumber {
-    color: blue;
+	color: blue;
 }
 
 .generateButton {
 	float: left;
-    width: 170px;
+	width: 170px;
 	font-size: 17px;
-	cursor:	pointer;
+	cursor: pointer;
 	height: 52px;
-    line-height: 50px;
+	line-height: 50px;
 	border-radius: 10px;
 }
 
 .solveButton {
 	float: right;
-    width: 170px;
+	width: 170px;
 	font-size: 17px;
-	cursor:	pointer;
+	cursor: pointer;
 	height: 52px;
-    line-height: 50px;
+	line-height: 50px;
 	border-radius: 10px;
 }
 
 .solveButtonWithImidiateDrawing {
 	margin-top: 5px;
-    width: 380px;
+	width: 380px;
 	font-size: 17px;
-	cursor:	pointer;
+	cursor: pointer;
 	height: 52px;
-    line-height: 50px;
+	line-height: 50px;
 	border-radius: 10px;
 }
 

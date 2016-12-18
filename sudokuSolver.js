@@ -161,7 +161,6 @@ function solveUsingBacktrack() {
 			//removeCandidateFromGrid(positionOfCandidate);
 			drawElement = [positionOfCandidate,"0"];
 			drawGrid.push(drawElement);
-			
 		}
 	}
 	return false;
@@ -180,8 +179,8 @@ async function drawWithPauses() {
 			candidate = drawElement[1];
 			if (candidate == "0") 
 				document.getElementById(position).innerHTML = ""; // remove candidate from grid
-			else // draw the candidate
-				document.getElementById(position).innerHTML = candidate;
+			else
+				document.getElementById(position).innerHTML = candidate; // draw the candidate
 			await sleep(1);
 	}
 	enableGenerateButton();
@@ -205,11 +204,6 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function disableButtons() {
-	disableGenerateButton();
-	disableSolveButton();
-}
-
 function createNewGenerationMessage() {
 	if (takesTooLongToExecute) {
 		console.log(drawGrid.length);
@@ -225,6 +219,11 @@ function showImidiateSolutionButton(show) {
 
 function emptyMessages() {
 	document.getElementById("messages").innerHTML = "";
+}
+
+function disableButtons() {
+	disableGenerateButton();
+	disableSolveButton();
 }
 
 function disableGenerateButton() {
