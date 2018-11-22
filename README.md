@@ -1,4 +1,5 @@
-# Sudoku Web puzzle solver
+# sudoku-solver
+
 A simple web interface that solves sudoku puzzles using a backtracking algorithm. Some notes:
 - If the algorithm takes too long to find a solution, the execution is stopped and a message is shown.
 - The puzzle generator is made using random variables, so some of the generated puzzles might be unsolvable (an appropriate message is shown when that happens)
